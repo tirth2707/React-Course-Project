@@ -16,6 +16,8 @@ function App() {
         'https://reactdemo-81591-default-rtdb.firebaseio.com/tasks.json'
       );
 
+      //firebase google
+
       if (!response.ok) {
         throw new Error('Request failed!');
       }
